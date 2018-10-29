@@ -1,27 +1,29 @@
-#### Mndx Core Wallet
+#### AIMARK Core Wallet
 
-MNDX Specifications
+AIM Specifications
 
 Full info
 
-Ticker: MNDX
+Ticker: AIM
 
 Algorithm: X11
 
-Masternode colletral: 5000 MNDX
+Masternode colletral: 1000 AIM
 
-Masternode rewards: 97.5%
+Masternode rewards: 75%
 
-Block reward: 1 MNDX - 80 MNDX
+Staking rewards: 25%
 
-POS start block: 1440
+Block reward: 1 AIM - 80 AIM
+
+POS start block: 101
 
 Block Timer: 60 seconds
 
-Maturity: 20 blocks
+Maturity: 10 blocks
 
-Stake Min Age: 12 hours
+Stake Min Age: 6 hours
 
-Max supply: 11 000 000 MNDX
+Max supply: 10 000 000 AIM
 
-Premine: 200 000 MNDX
+Premine: 100 000 AIM
