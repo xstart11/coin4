@@ -1,0 +1,26 @@
+# /etc/conf.d/mndxd: config file for /etc/init.d/mndxd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mndx/mndx.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/mndxd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mndxd.pid"
+
+# Where to write mndxd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mndxd"
+
+# User and group to own mndxd process
+#BITCOIND_USER="mndx"
+#BITCOIND_GROUP="mndx"
+
+# Path to mndxd executable
+#BITCOIND_BIN="/usr/bin/mndxd"
+
+# Nice value to run mndxd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

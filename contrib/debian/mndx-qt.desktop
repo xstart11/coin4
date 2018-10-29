@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Mndx
+Comment=Mndx P2P Cryptocurrency
+Comment[fr]=Mndx, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Mndx, eşten eşe kriptografik sanal para birimi
+Exec=mndx-qt %u
+Terminal=false
+Type=Application
+Icon=mndx128
+MimeType=x-scheme-handler/mndx;
+Categories=Office;Finance;

@@ -1,0 +1,26 @@
+[Unit]
+Description=MNDX's distributed currency daemon
+After=network.target
+
+[Service]
+User=mndx
+Group=mndx
+
+Type=forking
+PIDFile=/var/lib/mndxd/mndxd.pid
+
+ExecStart=/usr/bin/mndxd -daemon -pid=/var/lib/mndxd/mndxd.pid \
+          -conf=/etc/mndx/mndx.conf -datadir=/var/lib/mndxd
+
+ExecStop=-/usr/bin/mndx-cli -conf=/etc/mndx/mndx.conf \
+         -datadir=/var/lib/mndxd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
